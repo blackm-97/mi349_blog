@@ -22,7 +22,41 @@
     </header>
     <main>
         <form>
-            
+            <h2>Contact Information</h2>
+            <p>
+                * = required
+            </p>
+            <p>
+                <label for="name">
+                    <span>Name: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="text" name="receivername" id="name" required>
+            </p>
+            <p>
+                <label for="email">
+                    <span>Email Address: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="text" name="email-address" id="email" required>
+            </p>
+            <p>
+                <label for="contact-reason">
+                    <span>Reason for Contact: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <select name="options" id="contact-reason" required>
+                    <option value="">--None Selected--</option>
+                    <option value="saying hi">Just Saying Hi</option>
+                    <option value="contractor">Looking For a Contractor</option>
+                    <option value="interview">Interested in an Interview</option>
+                </select>
+            </p>
+            <p>
+                <label for="comment">Any Comments? </label>
+                <input type="text" name="added-comments" id="comment">
+            </p>
+            <button type="submit">Submit</button>
         </form>
     </main>
 </body>
