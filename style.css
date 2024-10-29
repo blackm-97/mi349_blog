@@ -1,1 +1,29 @@
+html{
+    background: rgb(80, 143, 80);
+}
 
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 40px;
+    color:black;
+    background-color: rgb(182, 218, 182);
+    padding: 40px;
+    border-top: 10px solid #392901;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+.blogs{
+    border-top: 1px dotted rgb(80, 143, 80);
+}
+
+.blog-post{
+    border-bottom: 1px dotted rgb(80, 143, 80);
+}
