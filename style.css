@@ -20,8 +20,30 @@ p{
     line-height: 1.4em;
 }
 
+#main-header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(52, 134, 52);
+    padding: 10px;
+}
+
+#main-header ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center ;
+    align-self: center;
+}
+
+#main-header ul li{
+    width: calc(100%/3);
+    text-align: center;
+    font-size: 2em;
+}
+
 .blogs{
     border-top: 1px dotted rgb(80, 143, 80);
+    display: flex;
 }
 
 .blog-post{
