@@ -1,14 +1,14 @@
 html{
-    background: rgb(80, 143, 80);
+    background: #7785AC;
 }
 
 body {
     font-family:'Courier New', Courier, monospace;
     margin: 40px;
     color:black;
-    background-color: rgb(182, 218, 182);
+    background-color: #A5E6BA;
     padding: 40px;
-    border-top: 10px solid #392901;
+    border-top: 10px solid #360568;
 }
 
 h1{
@@ -23,8 +23,9 @@ p{
 #main-header{
     position: sticky;
     top: 0;
-    background-color: rgb(52, 134, 52);
-    padding: 10px;
+    background-color: #7785AC;
+    padding: 5px; 
+    box-shadow: 3px 4px #360568 ;
 }
 
 #main-header ul{
@@ -41,11 +42,27 @@ p{
     font-size: 2em;
 }
 
-.blogs{
+.blog{
     border-top: 1px dotted rgb(80, 143, 80);
+}
+
+.blog-flex{
     display: flex;
 }
 
 .blog-post{
     border-bottom: 1px dotted rgb(80, 143, 80);
+    flex: 1 1 0px;
+}
+
+.blog-post img{
+    width: auto;
+    height: 400px;
+}
+
+#author-pic{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 40px;
 }
