@@ -17,6 +17,10 @@ h1{
     margin: 0;
 }
 
+h2{
+    margin: 5px;
+}
+
 p{
     line-height: 1.4em;
 }
@@ -71,9 +75,23 @@ main{
     height: 400px;
 }
 
-#author-pic{
+figure{
     float: left;
+    margin-right: 40px;
+
+}
+
+figcaption{
+    text-align: center;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+#author-pic{
     width: 200px;
     height: auto;
-    margin-right: 40px;
+}
+
+.about{
+    padding-bottom: 40px;
 }
