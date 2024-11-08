@@ -73,18 +73,29 @@ main{
 .blog-post img{
     width: auto;
     height: 400px;
+    display: block;
+    border: 5px solid #360568;
+    box-shadow: 4px 6px #110234 ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 figure{
     float: left;
     margin-right: 40px;
+    border: 5px solid #360568;
+    background-color: #110234;
 
 }
 
 figcaption{
+    background-color: #110234   ;
     text-align: center;
     width: 200px;
+    margin-top: auto;
     word-wrap: break-word;
+    color: #A5E6BA;
 }
 
 #author-pic{
@@ -94,4 +105,25 @@ figcaption{
 
 .about{
     padding-bottom: 40px;
+}
+
+time[title]{
+    font-weight: bold;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    border: 1px dotted #360568;
+}
+
+table td:nth-child(2){
+    text-align: center;
+}
+
+table caption{
+    font-weight: bold;
+    font-size: large;
 }
