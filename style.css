@@ -60,6 +60,7 @@ main{
 }
 
 .blog-post{
+    min-width: 0;
     border: 1px dotted #360568;
     flex: 1 1 0px;
     padding-left: 20px;
@@ -72,6 +73,7 @@ main{
 }
 
 .blog-post img{
+    box-sizing: border-box;
     width: auto;
     height: 400px;
     display: block;
@@ -84,10 +86,8 @@ main{
 
 figure{
     float: left;
-    margin-right: 40px;
     border: 5px solid #360568;
     background-color: #110234;
-
 }
 
 figcaption{
@@ -100,7 +100,7 @@ figcaption{
 }
 
 #author-pic{
-    width: 200px;
+    max-width: 200px;
     height: auto;
 }
 
